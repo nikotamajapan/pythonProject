@@ -7,6 +7,5 @@ c=circle_area_func(3)
 cc=circle_area_func(3.14)
 
 print(c(10))
-
 print(cc(10))
 
