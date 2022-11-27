@@ -1,11 +1,5 @@
-def circle_area_func(pi):
-    def circle_area(radius):
-        return pi * radius * radius
-    return circle_area
+def add(a,b):
+    return a+b
 
-c=circle_area_func(3)
-cc=circle_area_func(3.14)
-
-print(c(10))
-print(cc(10))
-
+r = add(10,20)
+print(r)
