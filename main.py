@@ -1,14 +1,12 @@
-def hi(aa, bb):
-    '''
-     
-    :param aa:
-    :param bb:
-    :return:
-    '''
-    print(aa)
-    print(bb)
-    return True
+def circle_area_func(pi):
+    def circle_area(radius):
+        return pi * radius * radius
+    return circle_area
 
+c=circle_area_func(3)
+cc=circle_area_func(3.14)
 
-# hi('a','b','c',d='D', e="E")
-print(hi.__doc__)
+print(c(10))
+
+print(cc(10))
+
